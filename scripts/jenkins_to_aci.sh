@@ -103,7 +103,7 @@ az storage share create \
   --account-name $aciStorageAccountName \
   -o none
 
-# create acr
+# create your own Azure Container Registry
 az acr create -n $acrName \
     -g $resourceGroup \
     --sku Standard \
